@@ -1,0 +1,202 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Assistant, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, sans-serif;
+    box-sizing: border-box;
+}
+/* ----------Header---------- */
+
+header{
+    display: flex;
+    height: 80px;
+    background-color: #ffffff;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: #fafafa 7px solid;
+    
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000;
+}
+
+.logo_container{
+    margin-left: 2%;
+}
+
+.action_bar{
+    margin-right: 2%;
+}
+
+.myntra_home{
+    height: 36px;
+    width: 53px;
+}
+
+.nav_bar{
+    display: flex;
+    min-width: 350px;
+    width: 40%;
+    justify-content: space-between;
+    
+}
+
+
+
+.nav_bar a{
+    text-decoration: none; 
+    font-size: 14px;
+    letter-spacing: .3px;
+    color: #282c3f;
+    font-weight: 700;
+    text-transform: uppercase;
+    padding-bottom: 26px;
+    padding-top: 26px;
+    border-bottom: 2px solid #ffffff
+}
+
+.nav_bar a:hover{
+    border-bottom: 2px solid #ff3f6c ;  /*changing the white colour border to pink whenever we hover */
+    
+}
+
+.nav_bar a sup{
+    vertical-align: text-top; /*otherwise 'STUDIO' link was moving slightly downwards*/
+    color: #ff3f6c;
+    font-size: 10px;
+}
+
+.search_bar{
+    height: 40px;
+    display: flex;
+    width: 25%;
+    align-items: center;
+}
+.search_icon{
+    box-sizing: content-box;
+    width: 40px;
+    /* padding: 11px; */
+    height: 40px;
+    background: #f5f5f6;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius:  4px 0 0 4px ;
+    cursor: pointer;
+}
+.search_icon span{
+    color: #71727a;
+}
+.search_input{
+    flex-grow: 1;
+    height: 40px;
+    color: #696e79;
+    background: #f5f5f6;
+    border: 0;
+    border-radius: 0 4px 4px 0;
+}
+
+.action_bar{
+    display: flex;
+    width: 15%;
+    /* min-width: 200px; */
+    justify-content: space-evenly;
+}
+
+.action_bar a{
+    text-decoration: none;
+    color: black;
+}
+
+.action-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.action_name{
+    font-size: 12px;
+    font-weight: 700;
+}
+
+/* -----------Main Body---------- */
+
+.banner_container{
+    margin: 120px 0 40px;
+}
+
+.banner_image{
+    width: 100%;
+    padding: 10px 0;
+}
+
+.category_heading h4{
+    text-transform: uppercase;
+    color: #3e4152;
+    letter-spacing: .15em;
+    font-size: 1.8em;
+    margin: 50px 0 50px 30px;
+    max-height: 5em;
+    font-weight: 700;
+}
+
+.category_items{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.sale_item{
+    width: 250px;
+}
+
+/* ----------Footer---------- */
+
+.footer_container{
+    width: 100%;
+    background: #FAFBFC;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.footer_column{
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+.footer_column a{
+    text-decoration: none;
+    color: #696b79;
+    font-size: 15px;
+    padding-bottom: 10px;
+}
+
+.footer_column h3{
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #282c3f;
+    font-size: 13px;
+    padding-bottom: 20px;
+    padding-top: 30px;
+}
+
+.social_media{
+    display: flex;
+    justify-content: space-between;
+}
+
+.social_media i{
+    color: #696b79;
+    cursor: pointer;
+}
+
+.copyright{
+    color: #94969f;
+    text-align: end;
+    margin: 5px;
+}
+
+
